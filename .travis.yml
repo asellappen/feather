@@ -1,4 +1,7 @@
 language: r
+arch:
+- amd64
+- ppc64le
 cache: packages
 before_install:
 - cd R
